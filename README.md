@@ -3,7 +3,7 @@
 > git clone 
 
 ```bash
-git clone 
+git clone https://github.com/kkz-01/opentelemetry-demo.git
 ```
 
 
