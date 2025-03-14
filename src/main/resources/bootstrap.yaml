@@ -1,0 +1,37 @@
+server:
+  port: 8080
+  shutdown: graceful
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: demo
+  #允许AOP代理
+  aop:
+    proxy-target-class: true
+  #数据源
+  datasource:
+    url: jdbc:mysql://localhost:3306/test?autoReconnect=true&allowMultiQueries=true&sslMode=DISABLED&useUnicode=true&characterEncoding=UTF8&useLocalSessionState=true&connectionTimeZone=UTC
+    username: root
+    password: root
+
+# OpenTelemetry
+otel:
+  service:
+    name: risk
+  metric:
+    export:
+      interval: 10000
+  traces:
+    exporter: otlp
+  metrics:
+    exporter: otlp
+  logs:
+    exporter: otlp
+  exporter:
+    otlp:
+      endpoint: http://localhost:4318
+      logs:
+        protocol: http/protobuf
+  propagators: tracecontext,baggage

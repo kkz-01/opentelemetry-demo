@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+#      namespace: d5bf4de1-3865-40f9-b482-c539fdd97a81
+      config:
+        server-addr: ${spring.cloud.nacos.server-addr}
+        file-extension: yaml
+        prefix: demo
+#        namespace: ${spring.cloud.nacos.namespace}
+      discovery:
+        server-addr: ${spring.cloud.nacos.server-addr}
+#        namespace: ${spring.cloud.nacos.namespace}
