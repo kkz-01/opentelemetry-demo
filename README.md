@@ -34,19 +34,19 @@ after that you can see container like this
 
 use nacos require create table in mysql. I provide sql script.
 
-![Step3-before execute sql](./assets/Step3-before execute sql.png)
+![Step3-before-execute-sql](./assets/Step3-before-execute-sql.png)
 
 1、execute `alter_root_login_plugin.sql`
 
-![Step3-execute sql-1](./assets/Step3-execute sql-1.png)
+![Step3-execute-sql-1](./assets/Step3-execute-sql-1.png)
 
 2、execute `nacos_init.sql`
 
-![Step3-execute sql-2](./assets/Step3-execute sql-2.png)
+![Step3-execute-sql-2](./assets/Step3-execute-sql-2.png)
 
 after execute sql table in mysql like this
 
-![Step3-after execute sql](./assets/Step3-after execute sql.png)
+![Step3-after-execute-sql](./assets/Step3-after-execute-sql.png)
 
 # Step4-restart Nacos
 
@@ -97,3 +97,5 @@ finally you can see as follow
 ![Step7](./assets/Step7.png)
 
 # Step8
+![Step8-debug condition](./assets/Step8-debug condition.png)
+![Step8-debug condition-2](./assets/Step8-debug condition-2.png)
