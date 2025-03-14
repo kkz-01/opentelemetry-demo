@@ -97,6 +97,6 @@ finally you can see as follow
 ![Step7](./assets/Step7.png)
 
 # Step8
-![Step8-debug condition](./assets/Step8-debug condition.png)
+![Step8-debug-condition](./assets/Step8-debug-condition.png)
 
-![Step8-debug condition-2](./assets/Step8-debug condition-2.png)
+![Step8-debug-condition-2](./assets/Step8-debug-condition-2.png)
